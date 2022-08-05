@@ -7,6 +7,8 @@ function isPrimo(valor) {
                 if(valor%i == 0){
                     if(i != valor){
                         return false;
+                    } else {
+                        return true;
                     }
                 }
             }
